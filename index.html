@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="rok-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let x =1990;x<=2030;x++){
+       let rok =x;
+        if (rok % 100 == 0 && rok % 400 == 0 ||rok % 100 != 0 && rok % 4 == 0)
+            {if (rok ==1996)
+            {console.log("P N "+rok);continue}
+                if (rok%10==0)
+                {console.log("P+O "+rok); continue}
+        console.log("p "+rok);continue}
+        else if (rok%10==0)
+            {if (rok % 100 != 0 && rok % 4 == 0)
+            {console.log("P+O "+rok); continue}
+        console.log("o "+rok); continue}
+     console.log(rok)}
+    </script>
+</body>
+</html>
